@@ -1,0 +1,13 @@
+s=set()
+# print(type(s))
+# s1=set([1,2,34,4])
+# print(s1)
+s.add(1)
+s.add(2)
+# s.remove(2)
+# s1=s.union({1,2,3})
+s1=s.intersection({1,2,3})
+print(s1)
+# s1={4,5}
+# print(s,s1)
+# print(s.isdisjoint(s1))

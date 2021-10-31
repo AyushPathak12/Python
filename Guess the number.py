@@ -5,7 +5,7 @@
 # game over
 # Number of guesses he take to win
 print("------------------------------Guess the number---------------------------")
-num = 34
+num = random.randint(1,100)
 noOfG = 1
 print("Number of guesses is limited to only 7 times!!!\n")
 while(noOfG <= 7):

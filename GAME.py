@@ -1,6 +1,6 @@
 import random as ayush
 print("!-------------------------- Rock Paper and Scissor -----------------------------!")
-print("Choose one of them \n r for Rock \n p for Paper \n s for Scissor")
+print("Choose one of them \n 1 for Rock \n 2 for Paper \n 3 for Scissor")
 print("Winning Rules of the Rock Paper Scissor game as follows: \n"
                                 +"Rock vs Paper->Paper wins \n"
                                 + "Rock vs Scissor->Rock wins \n"
@@ -39,9 +39,13 @@ while True:
       print("Rock wins => ", end = "")
       result="Rock"
 
-    else:
+    elif ((choice == 2 and comp_choice == 3) or
+          choice == 3 and comp_choice == 2):
       print("Scissor wins => ", end = "")
       result="Scissor"
+      
+    else:
+      print("Oops It's Draw!!")
     if result == choice_name:
       print("<== User wins ==>")
     else:

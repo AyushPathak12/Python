@@ -54,6 +54,10 @@ while True:
     ans = input()
 
     if ans == 'n' or ans == 'N':
-      break 
+      break
+    elif ans == 'y' or ans == 'Y':
+      continue
+    else:
+      print("!!!!!! PLEASE TYPE (Y/N) !!!!!!")  
 
 print("\nThanks For Playing, Have A Nice Day!!!!\n")

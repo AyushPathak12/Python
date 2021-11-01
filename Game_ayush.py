@@ -16,6 +16,7 @@ while True:
       choice_name = 'Paper'
     else:
       print("Wrong choice")
+      continue
     print("user choice is: " + choice_name)
     print("Now its computer turn.......")
     comp_choice = ayush.randint(1, 3)

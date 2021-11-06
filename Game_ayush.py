@@ -50,14 +50,12 @@ while True:
     else:
       print("<== No one wins ==>")
           
-    print("Do you want to play again? (Y/N)")
+    print("Press y to play again and any other key to exit!!")
     ans = input()
 
-    if ans == 'n' or ans == 'N':
-      break
-    elif ans == 'y' or ans == 'Y':
+    if ans == 'y' or ans == 'Y':
       continue
     else:
-      print("!!!!!! PLEASE TYPE (Y/N) !!!!!!")  
+      break
 
 print("\nThanks For Playing, Have A Nice Day!!!!\n")

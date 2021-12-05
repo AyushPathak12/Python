@@ -1,2 +1,2 @@
 # Python
-Some simple programs for beginers.... you know😂😂😂
+Some simple python programs for ....... .... you know 😀😀
